@@ -1,4 +1,4 @@
-package EdurekaModule3;
+package edurekaModule3;
 
 public class Car extends Vehicle{
 

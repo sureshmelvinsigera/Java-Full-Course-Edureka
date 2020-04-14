@@ -1,4 +1,4 @@
-package EdurekaModule3;
+package edurekaModule3;
 
 public class AutomobileManagement {
 
@@ -9,13 +9,21 @@ public class AutomobileManagement {
 		mercedes.numberOfWheels = 4;
 		bmw.numberOfWheels = 4;
 		
+		
+		// Super keyword demo:
 		Bike r1 = new Bike();
 		Bike ducati = new Bike();
-		r1.numberOfWheels = 2;
-		ducati.numberOfWheels = 2;
+		ducati.printNumberOfWheels();
 		
-		bmw.move();
-		ducati.move();
+		
+		// Polymorthism Demo:
+		System.out.println("\nStarting polymorthism demo:");
+		
+		Car ferrari = new Car();
+		Vehicle vehicle1 = ferrari;
+		Vehicle vehicle2 = new Vehicle();
+		vehicle1.move();
+		vehicle2.move();
 		
 	}
 }

@@ -1,8 +1,8 @@
-package EdurekaModule3;
+package edurekaModule3;
 
 public class Vehicle {
 	
-	Integer numberOfWheels;
+	Integer numberOfWheels = 4;
 	Long migeage;
 	
 	public void move() {
